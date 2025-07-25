@@ -132,6 +132,7 @@ const TipeRumah = () => {
             </div>
         </div>
     );
-};
+}
 
 export default TipeRumah;
+

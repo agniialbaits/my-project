@@ -208,10 +208,12 @@ body {
     position: relative;
     z-index: 1;
 }
+
 .jual-rumah .content {
     margin-right: 0px;
     margin-left: 220px;
 }
+
 
 .jual-rumah .content h1 {
     font-size: 28px;
@@ -225,7 +227,7 @@ body {
 
 
 .jual-rumah p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.6;
 }
 
@@ -241,6 +243,7 @@ body {
     cursor: pointer;
     transition: background 0.3s;
     margin-right: 230px;
+
 }
 
 .whatsapp-button:hover {
@@ -281,4 +284,3 @@ input {
         border-radius: 20px; /* tetap bulat jika perlu */
         font-size: 14px;
 }
-

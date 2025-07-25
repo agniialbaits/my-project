@@ -4,9 +4,13 @@ import LoginPage from './Pages/LoginPage/LoginPage'
 import DetailsPage from './Pages/details/detailsPage';
 import HomePage from './Pages/HomePage';
 import ScrollToTop from './Components/ScrollOnTop'; // <-- Tambahkan ini
-import './index.css'
-import GalleryPage from './Pages/GalleryPage';
+import './index.css';
 import MoreGallery from './Components/gallerySection/moregallery';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import LoginPage from './Pages/LoginPage/LoginPage'
+import HomePage from './Pages/HomePage';
+import './index.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +25,8 @@ function App() {
         <Route path="/semua-gambar" element={<MoreGallery />} />
       </Routes>
     </Router>
-  )
+  );
 }
 
 export default App;
+

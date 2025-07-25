@@ -95,6 +95,7 @@ a {
 }
 .nav-links a:hover::after {
     width: 100%;
+
 }
 
 /* Default warna teks putih untuk landing */
@@ -135,3 +136,4 @@ a {
     background-color: white;
     color: black;
 }
+
