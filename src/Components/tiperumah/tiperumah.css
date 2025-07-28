@@ -1,0 +1,236 @@
+body {
+  background: #D7F7FF;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    background-color: #D7F7FF;
+  }
+  
+  .tipe-header {
+    text-align: left;
+    padding-left: 16px;
+    margin-left: 35px;
+  }
+  
+  .section-title {
+    text-align: center;
+    color: #23455b;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .section-subtitle {
+    text-align: center;
+    color: #23455b;
+    margin-bottom: 32px;
+    margin-top: 4px;
+    font-size: 0.95rem;
+  }
+  
+  .card-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    overflow: hidden;
+    width: 300px;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 282px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 18px 16px 12px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body h3 {
+    margin: 0 0 4px 0;
+    font-size: 1.1rem;
+    color: #222;
+  }
+  
+  .card-body p {
+    margin: 0 0 2px 0;
+    color: #444;
+    font-size: 0.98rem;
+  }
+  
+  .status {
+    color: #23455b;
+    text-decoration: none;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .card-actions {
+    margin-top: auto;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .btn-detail, .btn-chat {
+    border: none;
+    border-radius: 6px;
+    padding: 7px 16px;
+    font-size: 0.97rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .btn-detail {
+    background: #fff;
+    color: #23455b;
+    border: 1.5px solid #005A71;
+    width: 50%;
+  }
+  
+  .btn-detail:hover {
+    background: #e0f7fa;
+  }
+  
+  .btn-chat {
+    background: #005A71;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+     width: 50%;
+  }
+  
+  .btn-chat:hover {
+    background: #23455b;
+  }
+  
+  .btn-lihat-lainnya {
+    display: block;
+    margin: 0 auto 32px auto;
+    background: #23455b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 32px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .btn-lihat-lainnya:hover {
+    background: #23455b;
+  }
+  
+  .tipe-title {
+    margin-top: 40px;
+  }
+  
+  .tipe-list-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .arrow-btn {
+    background: #1db5c9;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    z-index: 2;
+  }
+  
+  .arrow-btn:hover {
+    background: #1596a7;
+  }
+  
+  .tipe-list {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 12px 0;
+    min-width: 0;
+    scrollbar-width: none;
+  }
+  
+  .tipe-card {
+    background: #fff;
+    /* border-radius: 12px; */
+    overflow: hidden;
+    min-width: 330px;
+    max-width: 330px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .tipe-card img {
+    width: 100%;
+    height: 304px;
+    object-fit: cover;
+  }
+  
+  .tipe-caption {
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media (max-width: 900px) {
+    .card-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    .tipe-list {
+      gap: 10px;
+    }
+    .tipe-card {
+      min-width: 180px;
+      max-width: 180px;
+    }
+  .arrow-btn img {
+    display: block;
+    margin: auto;
+    width: 28px;
+    height: 28px;
+    pointer-events: none;
+  }
+  }
