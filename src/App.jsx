@@ -6,9 +6,6 @@ import HomePage from './Pages/HomePage';
 import ScrollToTop from './Components/ScrollOnTop'; // <-- Tambahkan ini
 import './index.css';
 import MoreGallery from './Components/gallerySection/moregallery';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import LoginPage from './Pages/LoginPage/LoginPage'
-import HomePage from './Pages/HomePage';
 import './index.css'
 
 
