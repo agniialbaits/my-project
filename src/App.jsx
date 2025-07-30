@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage';
 import ScrollToTop from './Components/ScrollOnTop'; // <-- Tambahkan ini
 import './index.css';
 import MoreGallery from './Components/gallerySection/moregallery';
+import ContactAgenPage from './Pages/ContactAgenPage/ContactAgenPage';
 import './index.css'
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/detailsPage" element={<DetailsPage />} />
         <Route path="/semua-gambar" element={<MoreGallery />} />
+        <Route path="/contact-agent" element={<ContactAgenPage />} />
       </Routes>
     </Router>
   );

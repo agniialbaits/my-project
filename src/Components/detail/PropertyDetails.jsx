@@ -1,7 +1,10 @@
 import React from 'react';
 import './PropertyDetails.css';
+import { useNavigate } from 'react-router-dom';
 
 const PropertyDetails = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="property-container">
       <div className="left-column">
@@ -43,8 +46,9 @@ const PropertyDetails = () => {
               <p className="agent-role">Agen Property</p>
             </div>
           </div>
-          <button className="chat-button">
-            <img src="/icons/wa.png" alt="whatsapp"/> Chat</button>
+          <button className="chat-button" onClick={() => navigate('/contact-agent')}>
+            <img src="/icons/wa.png" alt="whatsapp"/> Chat
+          </button>
         </div>
       </div>
     </div>
