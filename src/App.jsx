@@ -8,6 +8,7 @@ import './index.css';
 import MoreGallery from './Components/gallerySection/moregallery';
 import ContactAgenPage from './Pages/ContactAgenPage/ContactAgenPage';
 import './index.css'
+import RegisterForm from './Components/loginForm/RegisterForm';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/detailsPage" element={<DetailsPage />} />
         <Route path="/semua-gambar" element={<MoreGallery />} />
         <Route path="/contact-agent" element={<ContactAgenPage />} />
+        <Route path="/register" element={<RegisterForm /> } />
       </Routes>
     </Router>
   );
