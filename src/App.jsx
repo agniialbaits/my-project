@@ -10,6 +10,10 @@ import ContactAgenPage from './Pages/ContactAgenPage/ContactAgenPage';
 import './index.css'
 import RegisterForm from './Components/loginForm/RegisterForm';
 import CariRumahPage from './Pages/CariRumahPage/CariRumahPage';
+import RumahPage from './Components/rumah/RumahPage.jsx';
+import ResultTipe from './Components/result/ResultTipe';
+import RumahKosongPage from './Components/rumahkosong/RumahKosongPage';
+
 
 
 function App() {
@@ -26,6 +30,9 @@ function App() {
         <Route path="/contact-agent" element={<ContactAgenPage />} />
         <Route path="/register" element={<RegisterForm /> } />
         <Route path="/cari-rumah" element={<CariRumahPage />} />
+        <Route path="/rumah" element={<RumahPage />} />
+         <Route path="/result" element={<ResultTipe />} />
+        <Route path="/rumah-kosong" element={<RumahKosongPage />} />
       </Routes>
     </Router>
   );

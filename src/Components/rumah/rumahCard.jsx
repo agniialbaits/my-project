@@ -1,9 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
-import './card.css'; // Assuming you have a CSS file for styling
+import './rumahcard.css'; 
 
-const Card = () => {
+const RumahCard = () => {
   
     const navigate = useNavigate();
 
@@ -203,4 +203,4 @@ const Card = () => {
     );
 }
 
-export default Card
+export default RumahCard
